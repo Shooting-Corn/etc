@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 epochs = range(1, len(history.history['acc']) + 1)
 plt.plot(epochs, history.history['loss'])
 plt.plot(epochs, history.history['val_loss'])
